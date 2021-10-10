@@ -1,0 +1,54 @@
+@media (min-width: 1400px) {
+  html,
+  body {
+    font-size: 26px;
+    line-height: 1.4rem;
+  }
+
+  #intro-left-container {
+    width: 480px;
+  }
+
+  h1 {
+    font-size: 50px;
+    line-height: 0.8em;
+  }
+
+  #skulls-banner-top {
+    margin-top: calc(100vh - 8.75rem);
+  }
+
+  #airdrop-skull-1,
+  #airdrop-skull-2,
+  #airdrop-skull-3,
+  #airdrop-skull-4,
+  #airdrop-skull-5,
+  #airdrop-skull-6,
+  #airdrop-skull-7 {
+    display: block;
+  }
+
+  #date {
+    font-size: 28px;
+  }
+
+  #how-to-buy {
+    margin-top: 27px;
+  }
+
+  #faq ul li {
+    background-position: top 42px right 24px;
+  }
+
+  #question-skull-1,
+  #question-skull-2,
+  #question-skull-3,
+  #question-skull-4,
+  #question-skull-5 {
+    display: block;
+  }
+
+  .modal-skull {
+    top: 24px;
+  }
+}

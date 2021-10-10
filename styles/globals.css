@@ -1,0 +1,860 @@
+/*
+        This font software is the property of Commercial Type.
+
+        You may not modify the font software, use it on another website, or install it on a computer.
+
+        License information is available at http://commercialtype.com/eula
+        For more information please visit Commercial Type at http://commercialtype.com or email us at info[at]commercialtype.com
+
+        Copyright (C) 2021 Schwartzco Inc.
+        License: 2109-OTHZJA     
+*/
+@font-face {
+  font-family: "Druk Wide Web";
+  src: url("/fonts/DrukWide-Super-Web.woff2") format("woff2"),
+    url("/fonts/DrukWide-Super-Web.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: neue-haas-unica, sans-serif;
+  font-size: 19.5px;
+  line-height: 1.4rem;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 37px;
+  line-height: 1em;
+}
+
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+  font-size: 37px;
+  line-height: 1em;
+}
+
+.clear {
+  clear: both;
+}
+
+.druk {
+  font-family: "Druk Wide Web";
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1em;
+}
+
+#connect-wallet {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  text-transform: uppercase;
+  z-index: 50;
+  background-color: #000;
+  color: #fff;
+  font-weight: 800;
+  border-radius: 9999px;
+  padding: 0.5rem 1.25rem;
+}
+
+#connect-wallet a {
+  whitespace: nowrap;
+}
+
+#connect-wallet:hover {
+  transform-origin: center center;
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+#what-you-get h3 {
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: 19.5px;
+  line-height: 1.5em;
+}
+
+#what-you-get li {
+  margin-top: 50px;
+}
+
+#top {
+  position: relative;
+  z-index: 10;
+}
+
+#intro-left {
+  position: relative;
+  z-index: 30;
+  padding: 10px 40px;
+}
+
+#intro-right {
+  float: right;
+}
+
+#intro-left-container {
+  position: relative;
+}
+
+#mini-skull-container {
+  float: left;
+  margin-left: -20px;
+}
+
+#mini-skull {
+  margin-top: -0.5rem;
+}
+
+#welcome {
+  float: left;
+  width: 100%;
+  margin-bottom: 1rem;
+  position: relative;
+  margin-top: 0.25rem;
+  padding-top: 0;
+  max-width: 400px;
+  margin-right: 200px;
+  font-family: "Druk Wide Web";
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1em;
+}
+
+#date {
+  display: none;
+}
+
+#skull-grid {
+  display: none;
+}
+
+.skulls-banner svg {
+  position: relative;
+  left: -3%;
+  min-height: 192px;
+  width: 106%;
+  overflow: hidden;
+}
+
+#buy {
+  text-align: center;
+  position: relative;
+  z-index: 20;
+  overflow: hidden;
+  height: 3rem;
+  display: none;
+}
+
+#buy-button {
+  border-radius: 9999px;
+  display: block;
+  font-weight: 900;
+  margin: 40px auto;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  color: #000;
+  white-space: nowrap;
+  background-color: #00ff00;
+  z-index: 50;
+}
+
+#buy-button:hover {
+  transform-origin: center center;
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+#skulls-banner-top {
+  position: relative;
+  min-height: 192px;
+}
+
+#skulls-banner-top svg {
+  display: none;
+}
+
+#roadmap {
+  text-align: center;
+  width: 100%;
+  margin: 27px auto 1rem auto;
+  border-top: 4px solid #000;
+  padding-top: 0;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+#roadmap h2 {
+  font-size: 36px;
+  font-family: "Druk Wide Web";
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1em;
+  text-transform: uppercase;
+  max-width: 890px;
+  margin: 50px auto 40px auto;
+}
+
+#roadmap p {
+  max-width: 810px;
+  margin: 0 auto 50px auto;
+  padding: 0 50px;
+  font-size: 20px;
+  line-height: 1.4em;
+}
+
+#airdrop-skull-1 {
+  position: absolute;
+  left: -105px;
+  top: -20px;
+  transform: rotate(15deg);
+}
+
+#airdrop-skull-2 {
+  position: absolute;
+  left: 50px;
+  top: 320px;
+  transform: rotate(-120deg);
+}
+
+#airdrop-skull-3 {
+  position: absolute;
+  left: -90px;
+  top: 950px;
+  transform: rotate(100deg);
+}
+
+#airdrop-skull-4 {
+  position: absolute;
+  right: 15px;
+  top: 120px;
+  transform: rotate(0deg);
+}
+
+#airdrop-skull-5 {
+  position: absolute;
+  right: 25px;
+  top: 475px;
+  transform: translateX(50%) rotate(-40deg);
+  z-index: 20;
+}
+
+#airdrop-skull-6 {
+  position: absolute;
+  right: 235px;
+  top: 595px;
+  transform: translateX(50%) rotate(140deg);
+}
+
+#airdrop-skull-7 {
+  position: absolute;
+  right: 195px;
+  bottom: -125px;
+  transform: translateX(50%) rotate(-90deg);
+}
+
+#calendar {
+  width: 350px;
+  margin: 40px auto 0 auto;
+}
+
+#calendar li {
+  display: block;
+  float: left;
+  margin: 0 10px 10px 0;
+  line-height: 35px;
+  border: none;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  font-size: 14px;
+}
+
+#calendar li img {
+  width: 100%;
+  height: 100%;
+}
+
+#calendar li.future,
+#calendar li.halloween {
+  background: #fff;
+  border: 2px solid #000;
+}
+
+#calendar li.spacer {
+  background: #fff;
+  border: none;
+}
+
+#calendar li.future:hover,
+#calendar li.halloween:hover {
+  cursor: pointer;
+  background-color: #00ff00;
+}
+
+#calendar li.future:hover span,
+#calendar li.halloween:hover span {
+  display: none;
+}
+
+#calendar li.future:hover:after,
+#calendar li.halloween:hover:after {
+  content: "?";
+  font-size: 32px;
+  font-family: "Druk Wide Web";
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+#calendar-popup,
+#halloween-popup {
+  border: 2px solid #000;
+  padding: 8px;
+  width: 150px;
+  position: absolute;
+  background: #fff;
+  display: none;
+  transition: all 0.3s;
+}
+
+#halloween-popup {
+  background-color: #000;
+  color: #fff;
+}
+
+#calendar-popup .pointer1,
+#halloween-popup .pointer1 {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #000;
+
+  position: absolute;
+  bottom: -12px;
+  left: 68px;
+}
+
+#halloween-popup .pointer1 {
+  bottom: -12px;
+}
+
+#calendar-popup .pointer2 {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff;
+
+  position: absolute;
+  bottom: -10px;
+  left: 68px;
+}
+
+#calendar-popup p,
+#halloween-popup p {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+#halloween-popup p {
+  font-size: 11px;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 6px 18px;
+}
+
+#calendar-popup .title {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#calendar-popup #calendar-popup-img {
+  width: 50px;
+  height: 58px;
+  margin: 10px auto;
+  display: block;
+  text-align: center;
+}
+
+#how-to-buy {
+  text-align: center;
+  width: 100%;
+  margin: 18px auto 1rem auto;
+  border-top: 4px solid #000;
+  border-bottom: 4px solid #000;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#how-to-buy h2 {
+  font-size: 27px;
+  font-weight: bold;
+}
+
+#how-to-buy-desc {
+  margin-top: 1.5rem;
+}
+
+#how-to-buy a,
+#what-you-get a {
+  text-decoration: underline;
+}
+
+#how-to-buy a:hover,
+#what-you-get a:hover {
+  text-decoration: none;
+}
+
+#how-to-buy-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.text-xxs {
+  font-size: 0.6rem;
+  line-height: 1rem;
+}
+
+#eyeball-left,
+#eyeball-right {
+  display: none;
+  position: relative;
+}
+
+.eyeball-container {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.eyeball p,
+.eyeball-mobile p {
+  text-align: center;
+}
+
+.eyeball-mobile {
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+}
+
+.hover-eyeball {
+  display: none;
+}
+
+#skulls-row,
+#skulls-row-2 {
+  display: none;
+  position: relative;
+  margin: 70px 0;
+}
+
+#skulls-row-mobile {
+  display: block;
+  position: relative;
+  margin: 50px 0;
+}
+
+#skulls-row > div,
+#skulls-row-2 > div,
+#skulls-row-mobile > div,
+#skulls-row-2-mobile > div {
+  width: 100%;
+}
+
+#skulls-row-2-mobile {
+  display: block;
+  position: relative;
+  margin: 20px 0;
+}
+
+#what-you-get {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #000;
+  color: #fff;
+  padding: 1.5rem 1.25rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.question-skull {
+  display: none;
+}
+
+#question-skull-1 {
+  position: absolute;
+  left: -105px;
+  top: 30px;
+  transform: rotate(-215deg);
+}
+
+#question-skull-2 {
+  position: absolute;
+  right: -40px;
+  top: 100px;
+  transform: rotate(-25deg);
+}
+
+#question-skull-3 {
+  position: absolute;
+  left: 20px;
+  top: 300px;
+  transform: rotate(10deg);
+}
+
+#question-skull-4 {
+  position: absolute;
+  right: -155px;
+  top: 420px;
+  transform: rotate(0deg);
+}
+
+#question-skull-5 {
+  position: absolute;
+  right: 25%;
+  top: -225px;
+  transform: translateX(50%) rotate(140deg);
+}
+
+.spin-container {
+  animation: spin 15s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-weight: 900;
+}
+
+#built-on-solana {
+  position: relative;
+  text-align: center;
+  margin: 0 auto 2rem auto;
+  padding: 2rem;
+}
+
+#solana-eye {
+  display: none;
+}
+
+#solana-eye-mobile {
+  display: block;
+}
+
+.watching-eye {
+  transform-origin: center center;
+}
+
+#built-on-solana h4 {
+  margin-top: 1rem;
+  font-family: "Druk Wide Web";
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1em;
+}
+
+#built-on-solana p {
+  max-width: 24rem;
+  margin: 0 auto;
+}
+
+#faq {
+  border-top: 4px solid #000;
+  padding-bottom: 3rem;
+}
+
+#faq h4 {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-family: "Druk Wide Web";
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1em;
+}
+
+#faq ul {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1074px;
+}
+
+#faq ul li {
+  display: block;
+  border: 2px solid #000;
+  margin-bottom: 0.5rem;
+  background: url("/images/faq-plus.svg") top 28px right 28px no-repeat;
+}
+
+#faq button {
+  width: 100%;
+  padding: 1.5em;
+  cursor: pointer;
+}
+
+#faq .question {
+  font-weight: 700;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding-right: 50px;
+}
+
+#faq .open {
+  font-weight: normal;
+  display: block;
+  text-align: left;
+  padding: 0 1.5em 1.5em 1.5em;
+  white-space: pre-wrap;
+}
+
+#faq .open a {
+  text-decoration: underline;
+}
+
+#faq .open a:hover {
+  text-decoration: none;
+}
+
+#faq .closed {
+  font-weight: normal;
+  display: none;
+  text-align: left;
+  margin-right: 40px;
+}
+
+#social {
+  text-align: center;
+}
+
+#social h4 {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#social svg:hover {
+  transform-origin: center center;
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+#social svg {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+#social #social-discord {
+  margin-right: 0;
+}
+
+#skulls-banner-bottom-section {
+  overflow: hidden;
+}
+
+#skulls-banner-bottom {
+  position: relative;
+}
+
+#footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#footer ul li {
+  display: block;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-align: center;
+}
+
+#footer ul li a:hover {
+  text-decoration: underline;
+}
+
+#terms #intro {
+  height: auto;
+  display: block;
+}
+
+#terms #skulls-row-2 {
+  margin-bottom: 20px;
+}
+
+#terms #tos {
+  padding-top: 200px;
+}
+
+#terms #tos h4 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto 1em auto;
+  padding: 0 20px;
+  font-family: "Druk Wide Web";
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1em;
+}
+
+#terms #tos h5 {
+  max-width: 800px;
+  margin: 0 auto 0.5em auto;
+  font-size: 26px;
+  line-height: 25px;
+  padding: 0 50px;
+}
+
+#terms #tos p {
+  max-width: 800px;
+  margin: 0 auto 2em auto;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 0 50px;
+}
+
+#soon-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+#overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.2;
+}
+
+.modal-open {
+  display: block;
+}
+
+.modal-closed {
+  display: none;
+}
+
+.modal-open h2,
+.modal-closed h2 {
+  font-family: "Druk Wide Web";
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1em;
+  padding-right: 30px;
+  text-transform: uppercase;
+}
+
+.modal-container {
+  background: #fff;
+  width: 712px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  left: 120px;
+  transform: translateY(-50%);
+  padding: 50px 80px 50px 175px;
+  border: 2px solid #000;
+  min-height: 485px;
+}
+
+.modal-container a {
+  text-decoration: underline;
+}
+
+.modal-container a:hover {
+  text-decoration: none;
+}
+
+.modal-close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+}
+
+.modal-close:hover {
+  transform: scale(1.1);
+}
+
+.modal-skull {
+  position: absolute;
+  left: -270px;
+  top: 0px;
+}
+
+#coming-soon {
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+  height: calc(100vh);
+  overflow: hidden;
+}
+
+#coming-soon-container {
+  margin: 0 auto;
+
+  position: relative;
+  top: -100px;
+}
+
+#coming-soon #skull {
+  text-align: center;
+  margin: 0 auto 10px auto;
+}
+
+#coming-soon h1 {
+  text-align: center;
+  font-family: "Druk Wide Web";
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1em;
+  margin-bottom: 10px;
+}
+
+#coming-soon p {
+  text-align: center;
+}
+
+#custom-skulls #social {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}

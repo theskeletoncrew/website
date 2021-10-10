@@ -1,0 +1,299 @@
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 40px;
+    line-height: 0.8em;
+  }
+
+  h2,
+  h3,
+  h4 {
+    font-size: 50px;
+    line-height: 0.8em;
+  }
+
+  #skull-grid {
+    display: block;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(/images/skull-grid.png);
+    background-position: center left;
+    background-size: cover;
+  }
+
+  #intro {
+    width: calc(100vw);
+    height: calc(100vh + 1.2rem);
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  #intro-right {
+    flex-grow: 1;
+    float: none;
+    margin-left: -150px;
+  }
+
+  .druk {
+    line-height: 1em;
+    letter-spacing: 0.08em;
+  }
+
+  #date {
+    display: block;
+    margin-top: 0.8rem;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 21px;
+  }
+
+  #what-you-get li {
+    margin-top: 80px;
+  }
+
+  #what-you-get h3 {
+    margin-bottom: 0.75rem;
+    font-size: 36px;
+    line-height: 1em;
+  }
+
+  #skulls-banner-top {
+    margin-top: calc(100vh - 11.6rem);
+  }
+
+  #buy {
+    display: block;
+  }
+
+  #buy-button {
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    margin: 0;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+  #buy-button:hover {
+    transform: translateX(-50%) translateY(-50%) scale(1.05);
+  }
+
+  .hover-eyeball {
+    display: block;
+    background: url(/images/eye-solana-small.png) center center no-repeat;
+    width: 189px;
+    height: 184px;
+    margin: 0 auto;
+    margin-top: 63px;
+  }
+
+  #roadmap h2 {
+    font-size: 50px;
+    margin: 120px auto 40px auto;
+  }
+
+  #roadmap p {
+    font-size: 26px;
+  }
+
+  #calendar {
+    width: 600px;
+    position: relative;
+    left: 10px;
+  }
+
+  #calendar li {
+    width: 75px;
+    height: 75px;
+    line-height: 70px;
+    font-size: 20px;
+  }
+
+  #calendar li.future:hover,
+  #calendar li.halloween:hover {
+    border: 4px solid #000;
+  }
+
+  #calendar li.future:hover:after,
+  #calendar li.halloween:hover:after {
+    font-size: 50px;
+  }
+
+  #calendar-popup,
+  #halloween-popup {
+    border: 4px solid #000;
+    padding: 10px;
+    width: 220px;
+  }
+
+  #calendar-popup .pointer1,
+  #halloween-popup .pointer1 {
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #000;
+
+    bottom: -24px;
+    left: 88px;
+  }
+
+  #halloween-popup .pointer1 {
+    bottom: -22px;
+  }
+
+  #calendar-popup .pointer2 {
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #fff;
+
+    bottom: -19px;
+    left: 88px;
+  }
+
+  #calendar-popup p,
+  #halloween-popup p {
+    font-size: 20px;
+  }
+
+  #halloween-popup p {
+    font-size: 18px;
+    padding: 8px 21px;
+  }
+
+  #calendar-popup .title {
+    font-size: 14px;
+  }
+
+  #calendar-popup #calendar-popup-img {
+    width: 100px;
+    height: 115px;
+    margin: 20px auto;
+  }
+
+  #how-to-buy {
+    margin-top: 18px;
+  }
+
+  #how-to-buy h2 {
+    font-size: 36px;
+  }
+
+  #eyeball-left,
+  #eyeball-right {
+    display: block;
+    padding-top: 50px;
+  }
+
+  #faq ul {
+    width: 75%;
+  }
+
+  #faq ul li {
+    margin-bottom: 1rem;
+  }
+
+  #connect-wallet {
+    display: inline-block;
+  }
+
+  #intro-left {
+    margin-left: 95px;
+  }
+
+  #intro-left-container {
+    width: 374px;
+  }
+
+  #mini-skull-container {
+    position: fixed;
+    float: none;
+    margin-top: -5px;
+    margin-left: 0;
+  }
+
+  #mini-skull {
+    margin-top: -10px;
+    margin-left: -120px;
+  }
+
+  #welcome {
+    float: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #buy {
+    height: auto;
+  }
+
+  #skulls-banner-top svg {
+    display: block;
+  }
+
+  .eyeball-mobile {
+    display: none;
+  }
+
+  #skulls-row,
+  #skulls-row-2 {
+    display: block;
+  }
+
+  #skulls-row-mobile,
+  #skulls-row-2-mobile {
+    display: none;
+  }
+
+  #what-you-get {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  #build-on-solana {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  #solana-eye {
+    display: block;
+  }
+
+  #solana-eye-mobile {
+    display: none;
+  }
+
+  #built-on-solana h4 {
+    margin-top: 1.5rem;
+  }
+
+  #faq h4 {
+    margin-top: 1.5rem;
+  }
+
+  #social {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  #social h4 {
+    margin-top: 1.5rem;
+  }
+
+  #footer {
+    margin-bottom: 10px;
+    padding: 0 23px;
+  }
+
+  #footer ul li {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 16px;
+    width: auto;
+  }
+
+  #terms #welcome {
+    margin-left: 0;
+  }
+}
