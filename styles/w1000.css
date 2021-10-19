@@ -92,11 +92,53 @@
 
   #roadmap h2 {
     font-size: 50px;
-    margin: 120px auto 40px auto;
+    margin: 80px auto 25px auto;
   }
 
   #roadmap p {
     font-size: 26px;
+  }
+
+  #roadmap-list {
+    max-width: 950px;
+  }
+
+  #roadmap ul li {
+    width: 800px;
+    padding: 35px 40px;
+    margin: 30px auto;
+  }
+
+  #roadmap ul li .roadmap-dot {
+    left: -94px;
+  }
+
+  .roadmap-emoji {
+    top: 34px;
+    left: 38px;
+  }
+
+  .roadmap-title {
+    padding-left: 40px;
+    font-size: 26px;
+  }
+
+  .roadmap-item-description {
+    font-size: 20px;
+    padding-left: 40px;
+    margin-top: 1em;
+  }
+
+  #roadmap-timeline {
+    top: 55px;
+    left: 10px;
+    height: 2750px;
+    width: 6px;
+  }
+
+  #roadmap-timeline-completed {
+    height: 1000px;
+    left: 10px;
   }
 
   #calendar {
@@ -172,18 +214,17 @@
     margin: 20px auto;
   }
 
-  #how-to-buy {
+  #airdrop-calendar {
     margin-top: 18px;
   }
 
-  #how-to-buy h2 {
-    font-size: 36px;
+  #airdrop-calendar h2 {
+    margin: 120px auto 40px;
+    font-size: 50px;
   }
 
-  #eyeball-left,
-  #eyeball-right {
-    display: block;
-    padding-top: 50px;
+  #airdrop-calendar p {
+    font-size: 26px;
   }
 
   #faq ul {

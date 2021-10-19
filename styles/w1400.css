@@ -32,8 +32,16 @@
     font-size: 28px;
   }
 
-  #how-to-buy {
+  #airdrop-calendar {
     margin-top: 27px;
+  }
+
+  #roadmap-timeline {
+    height: 3100px;
+  }
+
+  #roadmap-timeline-completed {
+    height: 1135px;
   }
 
   #faq ul li {
