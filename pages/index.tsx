@@ -307,7 +307,8 @@ export default function Home() {
           <h2>ROADMAP</h2>
           <p>
             Below is a roadmap outlining the milestones we have planned for the
-            future of the DAO, including growth, monetization, tooling and more.
+            project, including the establishment of a DAO, growth, monetization,
+            tooling and more.
           </p>
           <div id="roadmap-list">
             <ul>
