@@ -431,7 +431,7 @@ h4 {
 #roadmap-list {
   position: relative;
   margin: 0 auto;
-  max-width: 280px;
+  max-width: 270px;
 }
 
 #roadmap ul {
@@ -473,7 +473,7 @@ h4 {
   position: absolute;
   top: 55px;
   left: -35px;
-  height: 4250px;
+  height: 4350px;
   width: 4px;
   background-color: #d9d9d9;
 }
@@ -482,7 +482,7 @@ h4 {
   position: absolute;
   top: 55px;
   left: -35px;
-  height: 1600px;
+  height: 1650px;
   width: 6px;
   background-color: #000;
 }
