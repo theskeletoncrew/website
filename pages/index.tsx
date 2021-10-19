@@ -44,7 +44,7 @@ export default function Home() {
                   <br />
                   SKELETON CREW
                 </h1>
-                <p id="date">Dropping {Constants.dropDateAndTime}</p>
+                <p id="date">Launched {Constants.dropDateAndTime}</p>
               </div>
             </div>
           </div>
@@ -65,8 +65,8 @@ export default function Home() {
               </svg>
             </div>
           </div>
-          <Link href="#" passHref={true}>
-            <button id="buy-button">WE ARE SOLD OUT</button>
+          <Link href="https://discord.gg/skeletoncrewrip" passHref={true}>
+            <button id="buy-button">JOIN OUR DISCORD</button>
           </Link>
         </section>
         <section id="airdrop-calendar">
@@ -464,7 +464,10 @@ export default function Home() {
                 </span>
                 <span className="roadmap-item-description">
                   We’ve developed tools to automate our #31daysofairdrops and
-                  plan on releasing the open source for this to the public.
+                  plan on open sourcing this to the public. We want to give the
+                  Solana ecosystem another little taste of what the Skeleton
+                  Crew is capable of delivering, filling common technology gaps
+                  while simultaneously building out premium offerings.
                 </span>
               </li>
               <li>
@@ -474,8 +477,8 @@ export default function Home() {
                   Launch dedicated webpages for SKULLS and airdrops
                 </span>
                 <span className="roadmap-item-description">
-                  Hosted pages for all SKULL owners to view their SKULLS,
-                  airdrops, and more.
+                  Hosted pages for all SKULL owners to connect with their
+                  SKULLS, airdrops, and more.
                 </span>
               </li>
               <li>
