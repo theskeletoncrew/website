@@ -219,7 +219,12 @@
   }
 
   #airdrop-calendar h2 {
-    font-size: 36px;
+    margin: 120px auto 40px;
+    font-size: 50px;
+  }
+
+  #airdrop-calendar p {
+    font-size: 26px;
   }
 
   #faq ul {
