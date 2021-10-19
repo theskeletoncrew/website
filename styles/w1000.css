@@ -90,6 +90,15 @@
     margin-top: 63px;
   }
 
+  #airdrop-calendar h2 {
+    font-size: 50px;
+    margin: 120px auto 40px auto;
+  }
+
+  #airdrop-calendar p {
+    font-size: 26px;
+  }
+
   #roadmap h2 {
     font-size: 50px;
     margin: 80px auto 25px auto;
@@ -132,7 +141,7 @@
   #roadmap-timeline {
     top: 55px;
     left: 10px;
-    height: 2800px;
+    height: 2820px;
     width: 6px;
   }
 
@@ -212,15 +221,6 @@
     width: 100px;
     height: 115px;
     margin: 20px auto;
-  }
-
-  #airdrop-calendar {
-    margin-top: 18px;
-  }
-
-  #airdrop-calendar h2 {
-    margin: 120px auto 40px;
-    font-size: 50px;
   }
 
   #airdrop-calendar p {
