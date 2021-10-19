@@ -1023,51 +1023,6 @@ export default function Home() {
           </ul>
         </section>
       </main>
-      <div
-        id="soon-modal"
-        className={isSoonModalOpen ? "modal-open" : "modal-closed"}
-      >
-        <div
-          id="overlay"
-          onClick={(e) => {
-            setIsSoonModalOpen(false);
-          }}
-        ></div>
-        <div className="modal-container">
-          <div className="modal-skull">
-            <Image
-              src="/images/modal-skull.png"
-              alt="Skull"
-              width="410"
-              height="470"
-            />
-          </div>
-          <h2>Cool Your Bones</h2>
-          <p>
-            Impatient, aren‘t we?
-            <br />
-            <br />
-            Drop date is <strong>{Constants.dropDateAndTime}</strong>, so check
-            back then for the mint. In the meantime, join us on{" "}
-            <a href={Constants.discordInviteURL}>Discord</a> and{" "}
-            <a href={Constants.twitterURL}>Twitter</a> for updates, previews,
-            giveaways, and more!
-          </p>
-          <button
-            className="modal-close"
-            onClick={(e) => {
-              setIsSoonModalOpen(false);
-            }}
-          >
-            <Image
-              src="/images/modal-close.png"
-              alt="Close"
-              width="30"
-              height="30"
-            />
-          </button>
-        </div>
-      </div>
       <script src="/js/scripts.js" async></script>
     </Layout>
   );
