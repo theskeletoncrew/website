@@ -516,7 +516,8 @@ export default function Home() {
                 <span className="roadmap-item-description">
                   The paid hosted version of Treat Toolbox will include advanced
                   features for non-technical users, and will additionally help
-                  fund the SkeleDAO.
+                  fund the SkeleDAO. Benefits/discounts will be provided to
+                  SKULL hodlers.
                 </span>
               </li>
               <li>
