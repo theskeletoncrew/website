@@ -431,7 +431,7 @@ h4 {
 #roadmap-list {
   position: relative;
   margin: 0 auto;
-  max-width: 260px;
+  max-width: 280px;
 }
 
 #roadmap ul {
@@ -457,7 +457,7 @@ h4 {
 #roadmap ul li .roadmap-dot {
   position: absolute;
   top: 50%;
-  left: -79px;
+  left: -65px;
   width: 58px;
   height: 58px;
   background: url("/images/roadmap.svg") top left no-repeat;
@@ -472,8 +472,8 @@ h4 {
 #roadmap-timeline {
   position: absolute;
   top: 55px;
-  left: -48px;
-  height: 3900px;
+  left: -35px;
+  height: 4250px;
   width: 4px;
   background-color: #d9d9d9;
 }
@@ -481,8 +481,8 @@ h4 {
 #roadmap-timeline-completed {
   position: absolute;
   top: 55px;
-  left: -50px;
-  height: 1450px;
+  left: -35px;
+  height: 1600px;
   width: 6px;
   background-color: #000;
 }
