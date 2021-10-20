@@ -64,7 +64,7 @@ function startCalendarPopupTracking() {
   var objects = ["SKULLS", "TRICKS", "TREATS", "BONES"];
 
   var desktopOffsetX = -74;
-  var desktopOffsetY = -261;
+  var desktopOffsetY = -321;
   var mobileOffsetX = -60;
   var mobileOffsetY = -155;
 
