@@ -449,7 +449,7 @@ export default function Home() {
                   a Metaplex Candy Machine.
                 </span>
               </li>
-              <li>
+              <li className="completed">
                 <span className="roadmap-dot"></span>
                 <span className="roadmap-emoji">🍇</span>
                 <span className="roadmap-title">
