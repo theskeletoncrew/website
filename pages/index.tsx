@@ -456,7 +456,7 @@ export default function Home() {
                   Integrate Grape into Discord for member verification
                 </span>
               </li>
-              <li>
+              <li className="completed">
                 <span className="roadmap-dot"></span>
                 <span className="roadmap-emoji">⚒️</span>
                 <span className="roadmap-title">
