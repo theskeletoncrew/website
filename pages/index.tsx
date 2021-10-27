@@ -471,6 +471,25 @@ export default function Home() {
                   users.
                 </span>
               </li>
+              <li className="completed">
+                <span className="roadmap-dot"></span>
+                <span className="roadmap-emoji">🎙</span>
+                <span className="roadmap-title">
+                  Release Podcast of Artist Interviews
+                </span>
+                <span className="roadmap-item-description">
+                  Launch{" "}
+                  <a
+                    href="https://anchor.fm/the-skeleton-crew"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Skelecast
+                  </a>
+                  , our podcast featuring interviews with independent artists
+                  and innovators doing cool things in the Solana NFT space.
+                </span>
+              </li>
               <li>
                 <span className="roadmap-dot"></span>
                 <span className="roadmap-emoji">💻</span>
