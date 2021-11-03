@@ -65,8 +65,8 @@ export default function Home() {
               </svg>
             </div>
           </div>
-          <Link href="https://discord.gg/skeletoncrewrip" passHref={true}>
-            <button id="buy-button">JOIN OUR DISCORD</button>
+          <Link href={Constants.linktreeURL} passHref={true}>
+            <a target="_blank">BUY A SKULL</a>
           </Link>
         </section>
         <section id="airdrop-calendar">
@@ -784,8 +784,8 @@ export default function Home() {
               </Link>
             </li>
             <li>
-              <Link href={Constants.linktreeURL} passHref={true}>
-                <a target="_blank">BUY A SKULL</a>
+              <Link href={Constants.discordInviteURL} passHref={true}>
+                <a target="_blank">JOIN OUR DISCORD</a>
               </Link>
             </li>
           </ul>
