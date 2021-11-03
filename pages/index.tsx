@@ -784,8 +784,8 @@ export default function Home() {
               </Link>
             </li>
             <li>
-              <Link href={Constants.discordInviteURL} passHref={true}>
-                <a target="_blank">JOIN OUR DISCORD</a>
+              <Link href={Constants.linktreeURL} passHref={true}>
+                <a target="_blank">BUY A SKULL</a>
               </Link>
             </li>
           </ul>
