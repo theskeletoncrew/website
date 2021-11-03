@@ -66,7 +66,7 @@ export default function Home() {
             </div>
           </div>
           <Link href={Constants.linktreeURL} passHref={true}>
-            <a target="_blank">BUY A SKULL</a>
+            <button id="buy-button">BUY A SKULL</button>
           </Link>
         </section>
         <section id="airdrop-calendar">
