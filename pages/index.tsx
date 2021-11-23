@@ -490,7 +490,7 @@ export default function Home() {
                   and innovators doing cool things in the Solana NFT space.
                 </span>
               </li>
-              <li>
+              <li className="completed">
                 <span className="roadmap-dot"></span>
                 <span className="roadmap-emoji">🎨</span>
                 <span className="roadmap-title">
@@ -504,7 +504,7 @@ export default function Home() {
                   community members.
                 </span>
               </li>
-              <li>
+              <li className="completed">
                 <span className="roadmap-dot"></span>
                 <span className="roadmap-emoji">💀</span>
                 <span className="roadmap-title">Launch SkeleDAO</span>
