@@ -463,12 +463,19 @@ export default function Home() {
                   Open source our airdrop tools
                 </span>
                 <span className="roadmap-item-description">
-                  We’ve developed tools to automate our #31daysofairdrops and
-                  plan on open sourcing this to the public. We want to give the
-                  Solana ecosystem another little taste of what the Skeleton
-                  Crew is capable of delivering; filling common technology gaps,
-                  while simultaneously building out premium offerings for super
-                  users.
+                  We’ve{" "}
+                  <a
+                    href="https://github.com/theskeletoncrew/air-support"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    developed tools
+                  </a>{" "}
+                  to automate our #31daysofairdrops and plan on open sourcing
+                  this to the public. We want to give the Solana ecosystem
+                  another little taste of what the Skeleton Crew is capable of
+                  delivering; filling common technology gaps, while
+                  simultaneously building out premium offerings for super users.
                 </span>
               </li>
               <li className="completed">
