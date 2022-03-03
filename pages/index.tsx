@@ -516,27 +516,10 @@ export default function Home() {
                 <span className="roadmap-emoji">💀</span>
                 <span className="roadmap-title">Launch SkeleDAO</span>
               </li>
-              <li>
+              <li className="completed">
                 <span className="roadmap-dot"></span>
-                <span className="roadmap-emoji">👕</span>
-                <span className="roadmap-title">Make SKULL merch</span>
-                <span className="roadmap-item-description">
-                  Setting up a merch shop based on the iconic SKULL brand and
-                  artwork: a portion of the merch royalties will go to a DAO
-                  community wallet, and DAO members will receive a discount on
-                  merchandise.
-                </span>
-              </li>
-              <li>
-                <span className="roadmap-dot"></span>
-                <span className="roadmap-emoji">💻</span>
-                <span className="roadmap-title">
-                  Launch dedicated webpages for SKULLS and airdrops
-                </span>
-                <span className="roadmap-item-description">
-                  Hosted pages for all SKULL owners to connect with their
-                  SKULLS, airdrops, and more.
-                </span>
+                <span className="roadmap-emoji">🏦</span>
+                <span className="roadmap-title">Establish DAO Treasury</span>
               </li>
               <li>
                 <span className="roadmap-dot"></span>
@@ -553,8 +536,25 @@ export default function Home() {
               </li>
               <li>
                 <span className="roadmap-dot"></span>
-                <span className="roadmap-emoji">🏦</span>
-                <span className="roadmap-title">Establish DAO Treasury</span>
+                <span className="roadmap-emoji">💻</span>
+                <span className="roadmap-title">
+                  Launch dedicated webpages for SKULLS and airdrops
+                </span>
+                <span className="roadmap-item-description">
+                  Hosted pages for all SKULL owners to connect with their
+                  SKULLS, airdrops, and more.
+                </span>
+              </li>
+              <li>
+                <span className="roadmap-dot"></span>
+                <span className="roadmap-emoji">👕</span>
+                <span className="roadmap-title">Make SKULL merch</span>
+                <span className="roadmap-item-description">
+                  Setting up a merch shop based on the iconic SKULL brand and
+                  artwork: a portion of the merch royalties will go to a DAO
+                  community wallet, and DAO members will receive a discount on
+                  merchandise.
+                </span>
               </li>
               <li>
                 <span className="roadmap-dot"></span>
