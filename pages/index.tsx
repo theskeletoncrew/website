@@ -38,7 +38,6 @@ export default function Home() {
                   </div>
                 </div>
                 <h1 id="welcome">SKELETON CREW</h1>
-                <p id="date">Released {Constants.dropDate}</p>
                 <ul id="secondarynav">
                   <li>
                     <a href={Constants.magicEdenURL}>SKULLS</a>
