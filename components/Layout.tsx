@@ -8,11 +8,11 @@ type Props = {
 };
 
 export const Layout = ({ children, title }: Props) => {
-  const description = `Halloween NFTs. ${Constants.totalMint} algorithmically generated skull PFPs. Coming to Solana this October.`;
+  const description = `${Constants.totalMint} SKULL PFPs on Solana. Indie Artist Launchpad, Staking, Web 3 Tools, DAO.`;
   const socialImage = "/skeleton-crew-social.png";
   const domain = "skeletoncrew.rip";
   const url = "https://" + domain + "/";
-  
+
   return (
     <>
       <Head>
