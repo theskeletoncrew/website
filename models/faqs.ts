@@ -8,61 +8,40 @@ interface FAQ {
 export const faqs: FAQ[] = [
   {
     question: `What are SKULLS?`,
-    answer: `Skulls are a collection of ${Constants.totalMint} hand drawn and algorithmically generated skulls stored on the <a href="https://solana.com" target="_blank">Solana</a> blockchain.`,
+    answer: `Skulls are a collection of ${Constants.totalMint} hand drawn and algorithmically generated NFTs stored on the <a href="https://solana.com" target="_blank">Solana</a> blockchain.`,
   },
   {
-    question: `How are SKULLS generated?`,
-    answer: `All SKULLS and their various parts are drawn by hand and algorithmically generated using custom code. There are ${Constants.attributes}+ attributes across ${Constants.categories} categories: These categories include headgear, eyes, expressions, backgrounds, skins, brains, and more. With these combined, it gives a total mathematical combination of millions of unique SKULLS - but with only ${Constants.totalMint} being minted, some are more unique and rare than others.
-
-We will be using a smart contract deployed on the Solana chain to distribute SKULLS. It will leverage the Metaplex Candy Machine to ensure the highest security assurances and best possible experience.`,
+    question: `Where can I buy or sell SKULLS today?`,
+    answer: `SKULLS are available on most major marketplaces, including <a href="${Constants.magicEdenURL}" target="_blank">Magic Eden</a>, <a href="https://solanart.io/collections/skeletoncrew" target="_blank">Solanart</a>, <a href="https://ftx.us/nfts/issuer/Skeleton%20Crew" target="_blank">FTX</a>, <a href="https://digitaleyes.market/collections/Skeleton%20Crew%20SKULLS" target="_blank">Digital Eyes</a>, and <a href="https://alpha.art/collection/skeleton-crew" target="_blank">Alpha Art</a>.`,
   },
   {
-    question: `What is the release date and price?`,
-    answer: `SKULLS drop on ${Constants.dropDate}. The price at launch will be ${Constants.solPrice} SOL.`,
+    question: `How were SKULLS generated?`,
+    answer: `All SKULLS and their various parts are drawn by hand and algorithmically created using our generation tool, <a href="${Constants.treatToolboxURL}">Treat Toolbox</a>. There are ${Constants.attributes}+ attributes across ${Constants.categories} categories: These categories include headgear, eyes, expressions, backgrounds, skins, brains, and more. With these combined, it gives a total mathematical combination of millions of unique SKULLS - but with only ${Constants.totalMint} minted, some are more unique and rare than others.`,
   },
   {
-    question: `Is there a mint limit?`,
-    answer: `There is a limit of 1 mint per transaction. You will be able to repeat this as many times as you want.`,
+    question: `What was the release date and price?`,
+    answer: `SKULLS dropped on ${Constants.dropDate}. The price at launch was ${Constants.solPrice} SOL.`,
   },
   {
-    question: `How can I buy a SKULL?`,
-    answer: `Minting a SKULL is super simple: just connect your Solana wallet and follow the buy prompts.
-
-1. Download the <a href="https://phantom.app" target="_blank">Phantom wallet extension</a> for your browser (<a href="https://brave.com/" target="_blank">Brave</a> or Google Chrome recommended).
-2. Buy <a href="https://solana.com" target="_blank">Solana</a> (SOL) on an exchange (like <a href="https://ftx.com" target="_new">FTX</a>, <a href="https://ftx.us" target="_new">FTX US</a>, <a href="https://coinbase.com" target="_new">Coinbase</a>, <a href="https://binance.com" target="_new">Binance</a>, etc) and send it to your wallet’s Public Address.
-3. Connect your Wallet to our website by clicking on the Connect button on the top right.
-4. Click the “Buy” button on our website and approve the transaction in your wallet.
-5. Welcome, you’re now the proud owner of a SKULL and officially a part of the Skeleton Crew!`,
-  },
-  {
-    question: `Which Solana wallets can I use?`,
-    answer: `At launch we will be allowing purchases and management through <a href="https://phantom.app" target="_blank">Phantom</a>.`,
-  },
-  {
-    question: `Where does my NFT go after I purchase a SKULL, and what can I do with it?`,
-    answer: `Your SKULL NFT artwork should be sent to the wallet you purchased with in a matter of seconds. You are free to do anything with your SKULL under a non-exclusive license. For more info, see our full <a href="/terms">terms</a>.`,
-  },
-  {
-    question: `After SKULLs are fully minted, where can I buy or sell SKULLs?`,
-    answer: `We are currently working to establish a presence on secondary marketplaces. These will be added following the mint as soon as they can verify SKULLS.`,
+    question: `What is the Skeleton Crew Artist Collective?`,
+    answer: `The artist collective is Skeleton Crew's launchpad helping independent artists create and ship their own Generative Collections on Solana. 
+    
+Some of the amazing projects we've helped launch include <a href="https://zen0verse.com" target="_blank">Zen0verse</a> by <a href="https://twitter.com/zen0m" target="_blank">Zen0m</a>, <a href="https://solanacomics.com" target="_blank">Longharbor</a> and <a href="https://cursedmikes.com" target="_blank">Cursed Mikes</a> by <a href="https://twitter.com/mirabalart" target="_blank">Alejandro Mirabal</a>, and <a href="https://darkelv.com" target="_blank">DARKELV</a> by <a href="https://twitter.com/marsdorian" target="_blank">Mars Dorian</a>.`,
   },
   {
     question: `What roadmap plans do you have for the future of SKULLS?`,
-    answer: `To start, in addition to being a collectible art piece, every SKULL you mint is also your skeleton key to our October event: an entire month of NFT airdrops limited exclusively to SKULL holders.
+    answer: `In addition to being a collectible art piece, every SKULL minted was also a skeleton key to our signature October event: an entire month of NFT airdrops by independent artists.
     
-Every single day in October, SKULL holders will have the chance to be airdropped exclusive and rare spooky goodies. Every SKULL you hold in your wallet increases your chance of winning an item, but not all items will be equally rare.
-    
-Some days will have thousands of treats going out, and sometimes drops of the rarest items may go down to the single digits. You can find out for yourself: will you get a trick, or a treat?
-
-More to come!`,
+SKULL holders are also able to <a href="${Constants.stakingURL}" target="_blank">stake their NFTs</a> to earn $SKULL tokens, which entitle them to whitelist access to projects from our artist launchpad, discounts on use of <a href="${Constants.treatToolboxURL}" target="_blank">Treat Toolbox</a>, and more.
+    `,
   },
   {
     question: `Who is running the Skeleton Crew?`,
-    answer: `The Skeleton Crew team is run by a small independent team of friends. Our core principles have always been to deliver collectible, high-quality art with the best possible NFT user experience from launch.`,
+    answer: `The Skeleton Crew team is run by <a href="https://twitter.com/ayyoskull" target="_blank">Ayyo</a> and <a href="https://twitter.com/cosimo_rip" target="_blank">Cosimo</a>, and we could not have launched without the help of <a href="https://twitter.com/Benny_Brainless" target="_blank">Benny</a>, our Community Manager. These days we're supported by the efforts of <a href="https://twitter.com/skele_dao">SkeleDAO</a> and the DAO leadership team. Our core principles have always been to deliver collectible, high-quality art with the best possible NFT user experience from launch.`,
   },
   {
-    question: `Will there be resale royalties?`,
-    answer: `${Constants.royalties}% royalties will be applied to all resales. A portion of secondary sales are being set aside in a community wallet to create a sustainable fund for independent artist commissions, which will be periodically airdropped to SKULL owners.`,
+    question: `Are there resale royalties?`,
+    answer: `${Constants.royalties}% royalties are applied to all resales. This supports the ongoing project efforts of the team, and pay for initiatives like the independent artist commissions used in our October 2021 airdrop campaign.`,
   },
   {
     question: `Get in touch with us`,
