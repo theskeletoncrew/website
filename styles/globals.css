@@ -54,6 +54,46 @@ h4 {
   line-height: 1em;
 }
 
+#secondarynav {
+  text-align: center;
+  margin-top: 2em;
+}
+
+#secondarynav li {
+  margin: 0;
+  padding: 0;
+}
+
+#secondarynav a {
+  font-size: 21px;
+  font-family: "Druk Wide Web";
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  display: inline-block;
+  line-height: 2em;
+}
+
+#secondarynav a:hover {
+  color: #555;
+}
+
+#secondarynav li.social {
+  margin-top: 1em;
+}
+
+#secondarynav li.social a {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#secondarynav li.social a:hover {
+  transform-origin: center center;
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
 #connect-wallet {
   position: absolute;
   right: 20px;
@@ -108,8 +148,8 @@ h4 {
 }
 
 #mini-skull-container {
-  float: left;
-  margin-left: -20px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 #mini-skull {
@@ -117,19 +157,18 @@ h4 {
 }
 
 #welcome {
-  float: left;
   width: 100%;
-  margin-bottom: 1rem;
   position: relative;
-  margin-top: 0.25rem;
   padding-top: 0;
   max-width: 400px;
-  margin-right: 200px;
   font-family: "Druk Wide Web";
   font-weight: 900;
   font-style: normal;
   font-stretch: normal;
   line-height: 1em;
+  float: none;
+  text-align: center;
+  margin: 0 auto;
 }
 
 #date {
@@ -482,7 +521,7 @@ h4 {
   position: absolute;
   top: 55px;
   left: -35px;
-  height: 3650px;
+  height: 3750px;
   width: 6px;
   background-color: #000;
 }
