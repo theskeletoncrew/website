@@ -568,6 +568,32 @@ export default function Home() {
                 <span className="roadmap-emoji">🏦</span>
                 <span className="roadmap-title">Establish DAO Treasury</span>
               </li>
+              <li className="completed">
+                <span className="roadmap-dot"></span>
+                <span className="roadmap-emoji">🪦</span>
+                <span className="roadmap-title">
+                  Provide Staking and a $SKULL Token
+                </span>
+                <span className="roadmap-item-description">
+                  Stake your SKULLS at{" "}
+                  <a href="https://staking.skeletoncrew.rip">
+                    staking.skeletoncrew.rip
+                  </a>{" "}
+                  and earn $SKULL tokens to be redeemed for NFTs, partner mints,
+                  Treat Toolbox discounts, and more!
+                </span>
+              </li>
+              <li className="completed">
+                <span className="roadmap-dot"></span>
+                <span className="roadmap-emoji">💻</span>
+                <span className="roadmap-title">
+                  Launch dedicated webpages for SKULLS and airdrops
+                </span>
+                <span className="roadmap-item-description">
+                  Hosted pages for all SKULL owners to connect with their
+                  SKULLS, airdrops, and more.
+                </span>
+              </li>
               <li>
                 <span className="roadmap-dot"></span>
                 <span className="roadmap-emoji">🧰</span>
@@ -579,17 +605,6 @@ export default function Home() {
                   features for non-technical users, and will additionally help
                   fund the SkeleDAO. Benefits/discounts will be provided to
                   SKULL hodlers.
-                </span>
-              </li>
-              <li>
-                <span className="roadmap-dot"></span>
-                <span className="roadmap-emoji">💻</span>
-                <span className="roadmap-title">
-                  Launch dedicated webpages for SKULLS and airdrops
-                </span>
-                <span className="roadmap-item-description">
-                  Hosted pages for all SKULL owners to connect with their
-                  SKULLS, airdrops, and more.
                 </span>
               </li>
               <li>
