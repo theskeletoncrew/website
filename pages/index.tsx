@@ -597,7 +597,7 @@ export default function Home() {
                   SKULLS, airdrops, and more.
                 </span>
               </li>
-              <li>
+              <li className="completed">
                 <span className="roadmap-dot"></span>
                 <span className="roadmap-emoji">🧰</span>
                 <span className="roadmap-title">
