@@ -375,37 +375,13 @@ export default function Home() {
                 <span className="roadmap-item-description">
                   We are officially listed on{" "}
                   <a
-                    href="https://ftx.us/nfts/collection/Skeleton%20Crew/25/1"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    FTX
-                  </a>
-                  ,{" "}
-                  <a
-                    href="https://solanart.io/collections/skeletoncrew"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Solanart
-                  </a>
-                  ,{" "}
-                  <a
-                    href="https://digitaleyes.market/collections/Skeleton%20Crew%20SKULLS"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    DigitalEyes
-                  </a>{" "}
-                  &{" "}
-                  <a
                     href="https://magiceden.io/marketplace?collection_symbol=skeleton_crew_skulls"
                     target="_blank"
                     rel="noreferrer"
                   >
                     Magic Eden
                   </a>
-                  .
+                  & most other major marketplaces.
                 </span>
               </li>
               <li className="completed">
