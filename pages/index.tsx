@@ -380,8 +380,8 @@ export default function Home() {
                     rel="noreferrer"
                   >
                     Magic Eden
-                  </a>
-                  & most other major marketplaces.
+                  </a>{" "}
+                  & most major marketplaces.
                 </span>
               </li>
               <li className="completed">
