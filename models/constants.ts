@@ -8,7 +8,7 @@ export namespace Constants {
   export const dropDateShort = "10/1/21";
   export const dropDateAndTime = "Oct 1, 5pm UTC";
   export const dropDateAndTimeShort = "10.1.21 5PM UTC";
-  export const discordInviteURL = "https://discord.gg/skeletoncrewrip";
+  export const discordInviteURL = "https://discord.skeletoncrew.rip";
   export const twitterURL = "https://twitter.com/skeletoncrewrip";
   export const linktreeURL = "https://linktr.ee/skeletoncrewrip";
   export const rarityURL = "https://howrare.is/skeletoncrew";
