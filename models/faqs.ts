@@ -12,7 +12,7 @@ export const faqs: FAQ[] = [
   },
   {
     question: `Where can I buy or sell SKULLS today?`,
-    answer: `SKULLS are available on our own <a href="${Constants.marketplaceURL} target="_blank">first party marketplace</a>. You can also find us on most major marketplaces, including <a href="${Constants.magicEdenURL}" target="_blank">Magic Eden</a>, <a href="https://solanart.io/collections/skeletoncrew" target="_blank">Solanart</a>, <a href="https://ftx.us/nfts/issuer/Skeleton%20Crew" target="_blank">FTX</a>, <a href="https://digitaleyes.market/collections/Skeleton%20Crew%20SKULLS" target="_blank">Digital Eyes</a>, and <a href="https://alpha.art/collection/skeleton-crew" target="_blank">Alpha Art</a>.`,
+    answer: `SKULLS are available on most major marketplaces, including <a href="${Constants.magicEdenURL}" target="_blank">Magic Eden</a>, <a href="https://solanart.io/collections/skeletoncrew" target="_blank">Solanart</a>, <a href="https://ftx.us/nfts/issuer/Skeleton%20Crew" target="_blank">FTX</a>, <a href="https://digitaleyes.market/collections/Skeleton%20Crew%20SKULLS" target="_blank">Digital Eyes</a>, and <a href="https://alpha.art/collection/skeleton-crew" target="_blank">Alpha Art</a>.`,
   },
   {
     question: `How were SKULLS generated?`,

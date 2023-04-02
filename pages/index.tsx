@@ -40,7 +40,7 @@ export default function Home() {
                 <h1 id="welcome">SKELETON CREW</h1>
                 <ul id="secondarynav">
                   <li>
-                    <a href={Constants.marketplaceURL}>SKULLS</a>
+                    <a href={Constants.magicEdenURL}>SKULLS</a>
                   </li>
                   <li>
                     <a href={Constants.magicEdenAirdropsURL}>AIRDROPS</a>
@@ -116,7 +116,7 @@ export default function Home() {
               </svg>
             </div>
           </div>
-          <Link href={Constants.marketplaceURL} passHref={true}>
+          <Link href={Constants.magicEdenURL} passHref={true}>
             <button id="buy-button">BUY SKULLS</button>
           </Link>
         </section>

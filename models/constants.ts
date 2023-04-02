@@ -15,8 +15,6 @@ export namespace Constants {
   export const treatToolboxURL = "https://treattoolbox.com";
   export const ngmiToURL = "https://ngmi.to";
   export const stakingURL = "https://staking.skeletoncrew.rip";
-  export const marketplaceURL =
-    "https://market.skeletoncrew.rip/collections/Bhr9iWx7vAZ4JDD5DVSdHxQLqG9RvCLCSXvu6yC4TF6c";
   export const magicEdenURL =
     "https://magiceden.io/marketplace/skeleton_crew_skulls";
   export const magicEdenAirdropsURL =
