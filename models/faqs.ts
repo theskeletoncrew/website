@@ -16,7 +16,7 @@ export const faqs: FAQ[] = [
   },
   {
     question: `How were SKULLS generated?`,
-    answer: `All SKULLS and their various parts are drawn by hand and algorithmically created using our generation tool, <a href="${Constants.treatToolboxURL}">Treat Toolbox</a>. There are ${Constants.attributes}+ attributes across ${Constants.categories} categories: These categories include headgear, eyes, expressions, backgrounds, skins, brains, and more. With these combined, it gives a total mathematical combination of millions of unique SKULLS - but with only ${Constants.totalMint} minted, some are more unique and rare than others.`,
+    answer: `All SKULLS and their various parts are drawn by hand and algorithmically created using our generation tool, Treat Toolbox. There are ${Constants.attributes}+ attributes across ${Constants.categories} categories: These categories include headgear, eyes, expressions, backgrounds, skins, brains, and more. With these combined, it gives a total mathematical combination of millions of unique SKULLS - but with only ${Constants.totalMint} minted, some are more unique and rare than others.`,
   },
   {
     question: `What was the release date and price?`,
@@ -32,7 +32,7 @@ Some of the amazing projects we've helped launch include <a href="https://zen0ve
     question: `What roadmap plans do you have for the future of SKULLS?`,
     answer: `In addition to being a collectible art piece, every SKULL minted was also a skeleton key to our signature October event: an entire month of NFT airdrops by independent artists.
     
-SKULL holders are also able to stake their NFTs to earn $SKULL tokens, which entitle them to whitelist access to projects from our artist launchpad, discounts on use of <a href="${Constants.treatToolboxURL}" target="_blank">Treat Toolbox</a>, and more.
+SKULL holders are also able to stake their NFTs to earn $SKULL tokens, which entitle them to whitelist access to projects from our artist launchpad, discounts on use of Treat Toolbox, and more.
     `,
   },
   {
