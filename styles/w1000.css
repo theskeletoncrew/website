@@ -155,12 +155,12 @@
   #roadmap-timeline {
     top: 55px;
     left: 10px;
-    height: 3250px;
+    height: 2850px;
     width: 6px;
   }
 
   #roadmap-timeline-completed {
-    height: 2810px;
+    height: 2850px;
     left: 10px;
   }
 
