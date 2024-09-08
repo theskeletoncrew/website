@@ -49,19 +49,10 @@ export default function Home() {
                     <a href={Constants.rarityURL}>RARITY</a>
                   </li>
                   <li>
-                    <a href={Constants.stakingURL}>STAKING</a>
-                  </li>
-                  <li>
                     <a href="#roadmap">ROADMAP</a>
                   </li>
                   <li>
                     <a href="#faq">FAQ</a>
-                  </li>
-                  <li>
-                    <a href={Constants.treatToolboxURL}>TREAT TOOLBOX</a>
-                  </li>
-                  <li>
-                    <a href={Constants.ngmiToURL}>NGMI.TO</a>
                   </li>
                   <li>
                     <a href={Constants.linktreeURL}>ADD’L LINKS</a>
@@ -404,15 +395,7 @@ export default function Home() {
                   >
                     HowRare.is
                   </a>
-                  , through analytics on{" "}
-                  <a
-                    href="https://solanalysis.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Solanalysis
-                  </a>
-                  ,{" "}
+                  , through analytics on Solanalysis, and{" "}
                   <a
                     href="https://solanafloor.com/nft/skeleton-crew-skulls"
                     target="_blank"
@@ -420,15 +403,8 @@ export default function Home() {
                   >
                     Solanafloor
                   </a>
-                  , and our{" "}
-                  <a
-                    href="https://twitter.com/skullsalesbot"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    @skullsalesbot
-                  </a>{" "}
-                  which is connected to all of our secondary marketplaces
+                  , and our @skullsalesbot which is connected to all of our
+                  secondary marketplaces
                 </span>
               </li>
               <li className="completed">
@@ -452,27 +428,12 @@ export default function Home() {
                 <span className="roadmap-dot"></span>
                 <span className="roadmap-emoji">🍬</span>
                 <span className="roadmap-title">
-                  Ship{" "}
-                  <a
-                    href="https://treattoolbox.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Treat Toolbox
-                  </a>
-                  , our open source generative art utility
+                  Ship Treat Toolbox, our open source generative art utility
                 </span>
                 <span className="roadmap-item-description">
-                  <a
-                    href="https://treattoolbox.com"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Treat Toolbox
-                  </a>{" "}
-                  is a fully web-based tool for creating Solana NFT collections,
-                  and it can take layered artwork all the way to production for
-                  a Metaplex Candy Machine.
+                  Treat Toolbox is a fully web-based tool for creating Solana
+                  NFT collections, and it can take layered artwork all the way
+                  to production for a Metaplex Candy Machine.
                 </span>
               </li>
               <li className="completed">
@@ -511,16 +472,9 @@ export default function Home() {
                   Release Podcast of Artist Interviews
                 </span>
                 <span className="roadmap-item-description">
-                  Launch{" "}
-                  <a
-                    href="https://anchor.fm/the-skeleton-crew"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Skelecast
-                  </a>
-                  , our podcast featuring interviews with independent artists
-                  and innovators doing cool things in the Solana NFT space.
+                  Launch Skelecast, our podcast featuring interviews with
+                  independent artists and innovators doing cool things in the
+                  Solana NFT space.
                 </span>
               </li>
               <li className="completed">
@@ -554,12 +508,8 @@ export default function Home() {
                   Provide Staking and a $SKULL Token
                 </span>
                 <span className="roadmap-item-description">
-                  Stake your SKULLS at{" "}
-                  <a href="https://staking.skeletoncrew.rip">
-                    staking.skeletoncrew.rip
-                  </a>{" "}
-                  and earn $SKULL tokens to be redeemed for NFTs, partner mints,
-                  Treat Toolbox discounts, and more!
+                  Stake your SKULLS earn $SKULL tokens to be redeemed for NFTs,
+                  partner mints, Treat Toolbox discounts, and more!
                 </span>
               </li>
               <li className="completed">
@@ -584,23 +534,6 @@ export default function Home() {
                   features for non-technical users, and will additionally help
                   fund the SkeleDAO. Benefits/discounts will be provided to
                   SKULL hodlers.
-                </span>
-              </li>
-              <li>
-                <span className="roadmap-dot"></span>
-                <span className="roadmap-emoji">👕</span>
-                <span className="roadmap-title">Make SKULL merch</span>
-                <span className="roadmap-item-description">
-                  Setting up a merch shop based on the iconic SKULL brand and
-                  artwork: a portion of the merch royalties will go to a DAO
-                  community wallet, and DAO members will receive a discount on
-                  merchandise.
-                </span>
-              </li>
-              <li>
-                <span className="roadmap-dot"></span>
-                <span className="roadmap-title roadmap-more">
-                  More coming soon
                 </span>
               </li>
             </ul>

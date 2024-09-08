@@ -32,7 +32,7 @@ Some of the amazing projects we've helped launch include <a href="https://zen0ve
     question: `What roadmap plans do you have for the future of SKULLS?`,
     answer: `In addition to being a collectible art piece, every SKULL minted was also a skeleton key to our signature October event: an entire month of NFT airdrops by independent artists.
     
-SKULL holders are also able to <a href="${Constants.stakingURL}" target="_blank">stake their NFTs</a> to earn $SKULL tokens, which entitle them to whitelist access to projects from our artist launchpad, discounts on use of <a href="${Constants.treatToolboxURL}" target="_blank">Treat Toolbox</a>, and more.
+SKULL holders are also able to stake their NFTs to earn $SKULL tokens, which entitle them to whitelist access to projects from our artist launchpad, discounts on use of <a href="${Constants.treatToolboxURL}" target="_blank">Treat Toolbox</a>, and more.
     `,
   },
   {

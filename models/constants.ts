@@ -12,9 +12,6 @@ export namespace Constants {
   export const twitterURL = "https://twitter.com/skeletoncrewrip";
   export const linktreeURL = "https://linktr.ee/skeletoncrewrip";
   export const rarityURL = "https://howrare.is/skeletoncrew";
-  export const treatToolboxURL = "https://treattoolbox.com";
-  export const ngmiToURL = "https://ngmi.to";
-  export const stakingURL = "https://staking.skeletoncrew.rip";
   export const magicEdenURL =
     "https://magiceden.io/marketplace/skeleton_crew_skulls";
   export const magicEdenAirdropsURL =
